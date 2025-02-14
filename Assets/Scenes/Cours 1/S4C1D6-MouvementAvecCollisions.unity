@@ -713,6 +713,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3351268252439224420, guid: 741dc339d3f1f1547a6caa4ddec62683,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3351268252439224420, guid: 741dc339d3f1f1547a6caa4ddec62683,
+        type: 3}
       propertyPath: m_TagString
       value: Poisson
       objectReference: {fileID: 0}
