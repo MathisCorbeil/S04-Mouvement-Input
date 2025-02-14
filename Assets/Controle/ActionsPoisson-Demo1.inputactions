@@ -1,0 +1,57 @@
+{
+    "name": "ActionsPoisson-Demo1",
+    "maps": [
+        {
+            "name": "Poisson",
+            "id": "50a617fa-1461-4efd-81af-b8e71e4e69d0",
+            "actions": [
+                {
+                    "name": "Dash",
+                    "type": "Button",
+                    "id": "e3cd6da9-78c3-4fa2-a62e-3bb74086dfec",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "06a8dcd1-15b6-4244-abfd-2dd145fff50f",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Clavier",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "385c7f40-50b8-4f13-83e2-06cceb0c0c21",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Clavier",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Clavier",
+            "bindingGroup": "Clavier",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

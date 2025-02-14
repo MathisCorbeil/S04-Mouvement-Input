@@ -18,6 +18,10 @@ public class ControlePoissonAxeRotation : MonoBehaviour
         angle = valeur.Get<float>();
     }
 
+    void OnDash(InputValue valeur)
+    {
+        _rb.AddRelativeForce(0, 0, 2f, ForceMode.VelocityChange);
+    }
     private void FixedUpdate()
     {
         _rb.AddRelativeTorque(0, angle, 0, ForceMode.VelocityChange);
